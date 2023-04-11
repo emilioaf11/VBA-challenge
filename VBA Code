@@ -127,9 +127,6 @@ Sub easyOption()
     Case Is < 0 
     ws.range(“J” & 2 + j).interior.colorindex = 3
 
-    Case Else
-    ws.range(“J” & 2 + j).interior.colorindex = 0
-
     End Select
 
     Next i
